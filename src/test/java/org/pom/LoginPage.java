@@ -53,4 +53,19 @@ public class LoginPage {
 		return btnLogin;
 	}
 
+	private void get() {
+		System.out.println("Create");
+
+	}
+
+	private void put() {
+		System.out.println("Update");
+
+	}
+
+	private void patch() {
+		System.out.println("Partial Update");
+
+	}
+
 }

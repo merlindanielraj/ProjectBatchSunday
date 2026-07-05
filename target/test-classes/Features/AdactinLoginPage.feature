@@ -34,3 +34,7 @@ Feature: Validating the Adactin Login Web Application
       | New York |         1 | 24/05/2025  | 25/05/2025   |             2 |
       | London   |         1 | 25/05/2025  | 26/05/2025   |             2 |
       | Paris    |         1 | 27/05/2025  | 28/05/2025   |             2 |
+      
+    Scenario: Validating the login page details
+    When user enter the valid username and password
+    Then user verifies Login page details like icon, header, sub header
