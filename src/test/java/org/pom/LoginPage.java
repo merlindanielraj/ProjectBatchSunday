@@ -67,5 +67,20 @@ public class LoginPage {
 		System.out.println("Selenium");
 
 	}
+	
+	private void get() {
+		System.out.println("Create");
+
+	}
+
+	private void put() {
+		System.out.println("Update");
+
+	}
+
+	private void patch() {
+		System.out.println("Partial Update");
+
+	}
 
 }
