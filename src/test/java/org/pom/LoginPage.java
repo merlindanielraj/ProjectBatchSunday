@@ -52,5 +52,20 @@ public class LoginPage {
 	public WebElement getBtnLogin() {
 		return btnLogin;
 	}
+	
+	private void apiTesting() {
+		System.out.println("Postman");
+
+	}
+
+	private void mobileTesting() {
+		System.out.println("Appium");
+
+	}
+
+	private void webTesting() {
+		System.out.println("Selenium");
+
+	}
 
 }
